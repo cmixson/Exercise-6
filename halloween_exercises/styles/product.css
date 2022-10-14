@@ -1,0 +1,208 @@
+html{
+    font-family: sans-serif;
+    background-image:url("../images/bats.gif");
+    background-repeat: repeat;
+    width: 800px;
+    margin: auto;
+   
+}
+
+header img{
+    margin-left: 10pt;
+    float: left;
+}
+
+
+body{
+    
+    width: 800px;
+    background-color: white;
+    border: solid 3px black;
+    box-shadow: 3px 3px 7px 7px black;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.navside .side1 a:hover {
+    color: green;
+}
+
+.navside .side1 a:focus {
+    color: green;
+}
+
+.navside2 figcaption a:hover {
+    color: green;
+}
+
+.navside2 figcaption a:focus {
+    color: green;
+}
+
+.h2format{
+    font-size: 220%;
+    text-indent: 0.5cm;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+header h3 {
+    text-indent: 0.5cm;
+    margin-top: 0;
+    
+    
+}
+
+header{
+    border-bottom: solid black;
+  
+    background-image: -webkit-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: -o-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    margin: 0;
+    padding: 5px;
+   
+}
+.navtop ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.navtop ul li{
+    float: left;
+    padding: 0;
+
+}
+.navtop ul li a{
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding: 0.5em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 210;
+}
+.navtop ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.navtop ul ul li{
+    float: none;
+}
+.navtop > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.navtop ul li:hover > ul{
+    display: block;
+}
+
+.navside ul {
+    list-style-type: none;
+}
+
+.navside ul li{
+    border: 2px solid black;
+    width: 120px;
+    margin-bottom: 7px;
+    background-color: orange;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 21px;
+    
+}
+.navside{
+    float: left;
+    width: 160px;
+
+}
+.navside2{
+    float: right;
+}
+.side1 a{
+    text-decoration: none;
+}
+.side1 a:link, .side1 a:visited
+{font-weight: bold;
+color: black;}
+footer{
+    margin: 0;
+    padding: 3px;
+    clear: both;
+    text-align: center;
+    font-weight: normal;
+    font-size: smaller;
+    border-top: solid black;
+    background-image: -webkit-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: -o-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: -moz-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+   
+}
+
+
+
+.navside2 a:link, .navside2 a:visited
+{
+color: black;}
+
+.navside2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 35px;
+    
+}
+
+
+.navside2{
+    background-color: #F5DEB3;
+    width: 220px;
+
+}
+
+.cat{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 180px;
+}
+
+.side1 {
+    
+    
+    padding-left: 20px;
+    
+}
+
+
+.navtop ul li a:hover, .navtop ul li a:focus { 
+    background-color: gray; }
+
+.descrip{
+    
+    margin-left: 380px;
+   
+}
+
+h4{
+    margin-left: 10px;
+}
+
+.navside2 img{
+    width: 50px;
+    
+}
+
+.h2last {
+    margin-left: 180px;
+    
+
+}
+
+

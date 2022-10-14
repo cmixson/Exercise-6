@@ -1,0 +1,198 @@
+html{
+    font-family: sans-serif;
+    background-image:url("../images/bats.gif");
+    background-repeat: repeat;
+    width: 800px;
+    margin: auto;
+   
+}
+
+header img{
+    margin-left: 10pt;
+    float: left;
+}
+
+.h2format{
+    font-size: 220%;
+    text-indent: 0.5cm;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+header h3 {
+    text-indent: 0.5cm;
+    margin-top: 0;
+    
+    
+}
+
+header{
+    border-bottom: solid black;
+  
+    background-image: -webkit-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: -o-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    background-image: linear-gradient( 45deg, white 0%, orange 25%, orange 75%, black 100%);
+    margin: 0;
+    padding: 5px;
+   
+}
+
+main h2:first-child::first-letter{
+    font-size: 200%;
+}
+
+.side a:link, .side a:visited
+{font-weight: bold;
+color: black;}
+
+.cathtml a:link, .cathtml a:visited
+{font-weight: bold;
+color: orange;}
+
+.cathtml a:focus, .cathtml a:hover {
+    color: green;
+}
+
+.side a:focus, .side a:hover {
+    color: green;
+}
+
+li{
+    margin-bottom: 2pt;
+}
+body{
+    width: 800px;
+    background-color: white;
+    border: solid 3px black;
+    box-shadow: 3px 3px 7px 7px black;
+    
+}
+
+aside{
+    margin-top: 20px;
+    float: left;
+    width: 160px;
+    
+}
+main{
+    float: right;
+    width: 580px;
+    margin-right: 30px;
+}
+
+footer{
+    margin: 0;
+    padding: 3px;
+   clear: both;
+    text-align: center;
+    font-weight: normal;
+    font-size: smaller;
+    border-top: solid black;
+    background-image: -webkit-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: -o-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: -moz-linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+    background-image: linear-gradient( 45deg, black 0%, orange 25%, orange 75%, white 100%);
+   
+}
+
+.navtop ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.navtop ul li{
+    float: left;
+    padding: 0;
+    
+}
+.navtop ul li a{
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding: 0.5em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 210;
+    
+   
+}
+.navtop ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    
+}
+.navtop ul ul li{
+    float: none;
+    
+}
+.navtop > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.navtop ul li:hover > ul{
+    
+    display: block;
+}
+.navtop ul li a.home{
+    color: orange;
+}
+
+
+ 
+.navside ul {
+    list-style-type: none;
+   
+    
+}
+
+.navside ul li{
+    border: 2px solid black;
+    width: 120px;
+    margin-bottom: 7px;
+    background-color: orange;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 21px;
+    
+}
+
+.navtop{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+  
+    
+}
+
+
+.navtop  a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+.side a{
+    text-decoration: none;
+    
+}
+
+.side{
+    
+    
+    padding-left: 20px;
+}
+
+.navtop ul li a:hover, .navtop ul li a:focus { 
+    background-color: gray; }
