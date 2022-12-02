@@ -7,7 +7,7 @@
                 .then(response => response.json())
                 .then(data =>{
                 console.log(data.name)
-                document.querySelector("#name").innerText = data.name
+                document.querySelector("#name" + i).innerText = data.name
                 
         })
     }
@@ -15,7 +15,8 @@
     
     
     <section>
-        <a href = "#" id="name"></a>
+        <a href = "#" id="name0"></a>
+        <a href = "#" id="name1"></a>
     </section>
 
 </html>
