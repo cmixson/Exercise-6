@@ -8,7 +8,6 @@
         .then(response => response.json())
         .then(data =>{
             console.log(data.name)
-            console.log(data.attributes.trait_type)
             document.querySelector("#name).innerText = data.name
         })
     }
@@ -17,7 +16,7 @@
     
 <main>
     <section>
-        <a id="name"></a>
+        <p id="name"> </p>
     </section>
     
 </main>
