@@ -1,26 +1,21 @@
 
-
 <!DOCTYPE html>
 <html>
-<script>
-    for (var i=0;i < 50; i++){
-        fetch(i + ".json")
-        .then(response => response.json())
-        .then(data =>{
-            console.log(data.name)
-            document.querySelector("#name).innerText = data.name
+    <script>
+        for (var i=0;i < 50; i++){
+            fetch(i + ".json")
+                .then(response => response.json())
+                .then(data =>{
+                console.log(data.name)
+                document.querySelector("#name).innerText = data.name
         })
     }
-</script>
+    </script>
     
-    
-<main>
-    <section>
-        <p id="name"> </p>
-    </section>
-    
-</main>
-
-    
+    <main>
+        <section>
+            <p id="name"> </p>
+        </section>
+   </main>
 </html>
 
