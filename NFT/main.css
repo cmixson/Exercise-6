@@ -1,0 +1,153 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{
+
+    background-image: url("banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 150px;
+   
+}
+.header_img{
+    float: left;
+    padding: 50px 0px 0px;
+
+
+}
+
+ 
+.h2_header{
+    font-size: 250%;
+    text-indent: 20px;
+    margin: 3px;
+    color: white;
+    
+}
+
+
+h2{
+    font-size: 120%;
+}
+
+h1{
+    font-size: 150%;
+    margin: 10px 10px 0px
+}
+
+
+
+p{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 75%;
+    border-top: 2px solid black;
+    background-image: linear-gradient(45deg, rgb(23, 39, 186) 0%, rgba(19, 17, 89, 0.474) 75%,black  100%)
+}
+li{
+
+    padding-bottom: 5px;
+}
+
+#sidebar img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.active{color: blue;}
+body{
+
+    
+    
+    background: white;
+    margin: auto;
+}
+
+sidebar{
+    float: left;
+    width: 160px;
+    height: 601px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+#nav_menu ul{
+    
+    height: 40px;
+    list-style: none;
+    position: relative;
+    display: block;
+    margin:auto;
+}
+#nav_menu ul li{
+
+   float: left;
+    text-align: center;
+    display: block;
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding-left: 0px;
+
+}
+
+
+
+#nav_menu ul {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#nav_menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#nav_menu ul li a.active{
+    color: blue;
+}
+
+
+main{
+    height:601px;   
+}   
+
+
+table tbody td{
+    border: 2px solid black;
+    
+}
+
+table tbody td:last-child{
+    text-align: right;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+main p{
+    padding-top: 15px;
+    font-size: 130%;
+}
+
+main h2{
+    text-align: center;
+}

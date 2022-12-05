@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <script>
+        
+         fetch("data/0.json")
+        .then(response => response.json())
+        .then(data =>{
+            document.querySelector("#featured").innerText = data.name
+            img.src = "https://s7nspfp.mypinata.cloud/ipfs/" + data.image
+            //console.log(data.attributes[0].value)//
+         })
+         
+    </script>
+<head>
+	<meta charset="utf-8" />
+	<title> S7NS STATION COLLECTION</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img class="header_img" src="logo-1.png" width="100" height="100">
+        <h2 class="h2_header">S7NS STATION COLLECTION</h2>
+        
+    </header>
+    
+    <main>
+        <nav id="nav_menu">
+        <ul>
+            
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="data/Gallery.html">NFT Gallery</a></li>
+        </ul>    
+    </nav>
+        <sidebar id = "sidebar">
+            <h1> Featured NFT</h1>
+            <img id="img" width="160" height="145">
+            <h3 id="featured" style="padding-left: 10px;"></h3>
+            
+        
+        </sidebar>    
+        <p style="text-indent: 40px">    A collection of S7NS STATION Genesis NFTs that give you ticket access to The Station Of
+            Sins. With Stakeholder System, the first dynamic minting smart contract: ERC721-S7, and an
+            innovative airdropping smart contract, S7NS STATION will provide passengers with utilities
+            from various sources. The seven deadly sins - pride, envy, anger, sloth, greed, gluttony, and lust
+            are the inspirations for the artwork. The boundaries between the digital and biblical worlds are
+            becoming hazier, and new regulations are emerging.
+        </p>
+        <h2>
+            About S7NS
+        </h2>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>Items</td>
+                        <td>3333</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Created</td>
+                        <td>August 2022</td>
+                    </tr>
+                    
+                        <td >Creator Royalty Fee</td>
+                        <td>6%</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>BlockChain</td>
+                        <td>Ethereum</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+    </main>
+    <footer>
+        <p>Created by: Courtney Mixson </p>
+    </footer>
+</body>
+</html>
